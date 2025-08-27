@@ -215,7 +215,7 @@ export default function AppearancePanel() {
         
         <section className="mb-6 grid gap-3">
           <label className="text-sm font-medium text-slate-700">Accent color</label>
-          <p className="-mt-1 text-xs text-slate-500">Pick your platform's main color</p>
+          <p className="-mt-1 text-xs text-slate-500">Pick your platforms main color</p>
           <div className="flex flex-wrap items-center gap-3">
             {ACCENTS.map((c) => (
               <button
